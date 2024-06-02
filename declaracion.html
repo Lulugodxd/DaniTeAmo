@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dani :3</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        .body__img {
+            width: 30%;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contenedor">
+        <p>Feliz mesversario mi wiwi! :3</p>
+        <p>Te amo mucho, sabias? Mi dani dindo, me amas tu? :D</p>
+        
+        <div>
+            <img src="https://i.pinimg.com/736x/4b/9e/df/4b9edf1bcc3656a98284cfa256f60ba4.jpg" 
+            alt="T amo mi wiwi" class="body__img">
+        </div>
+
+       
+        <button id="yes">T amo pero obvio tu ganas<3</button>
+        <button id="no">Yo más Bv</button>
+
+    </div>
+
+    
+    
+
+    <script src="index.js"></script>
+    <script>
+        const vutonSi = document.getElementById('yes');
+        const vutonNo = document.getElementById('no');
+
+        const AwwPeroYoTeAmoMas = () => {
+            alert('Aww de verdad creias que tocando el boton de "Yo mas" iba a pasar algo cosita dinda? pos no uwu, porq yo te amo más mi niño💗🐈');
+            alert('T voy a comer a besos ≧▽≦');
+            alert('Te dedico este tema que seguro ya me dedicaste pero iwal m encanta, pero no mas que vos obvio uwu, AY T AMOOO :3');
+            location.href = 'https://www.youtube.com/watch?v=zE6qjJVKqVw';
+        };
+
+        const evitarquedigaqueelmeamamas = () => {
+            vutonNo.style.position = 'absolute';
+            vutonNo.style.top = (Math.random() * window.innerheight) + 'px';
+            vutonNo.style.left = (Math.random() * window.innerWidth) + 'px';
+        }
+
+
+        vutonSi.addEventListener('click', AwwPeroYoTeAmoMas);
+        vutonNo.addEventListener('mouseover', evitarquedigaqueelmeamamas);
+    </script>
+    
+</body>
+</html>
